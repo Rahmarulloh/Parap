@@ -1,0 +1,49 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    .logo{
+        display: flex;
+        align-items: center;
+        margin: 20px;   
+        gap: 15px;
+        font-size: 28px;
+        color: #626263;
+        margin-left: 50px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 100px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-left: 600px;
+        .btn1{
+          width: 100px;
+          height: 40px;
+          border-radius: 10px;
+          border:1px solid #d760c7;
+          color: #d760c7;
+        }
+        .btn2{
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: #3DD8D0;
+            border: #fff;
+          }
+          
+    }
+          .translate{
+            display: flex;
+            align-items: center;
+            margin-left:50px ;
+            gap: 5px;
+          }
+}
