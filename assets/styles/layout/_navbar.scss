@@ -46,8 +46,9 @@
     align-items: center;
     padding: 20px;
     .sun {
-      width: 30px;
-      height: 30px;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
       background-color: white;
       border-radius: 50%;
       display: flex;
@@ -56,22 +57,18 @@
       border: 1px solid black;
     }
     .moon {
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       background-color: rgb(61, 61, 123);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
+      fill: #fff;
     }
   }
-  .sun:hover {
-    background-color: rgb(61, 61, 123);
-  }
-  .moon:hover {
-    background-color: #fff;
-    border: 1px solid black;
-  }
+
   .burger-svg {
     display: none;
   }
