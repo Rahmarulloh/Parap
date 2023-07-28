@@ -8,3 +8,10 @@
 .nav {
   @include d-flex($fd: column, $jc: space-evenly, $ai: start, $gp: 24px);
 }
+
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 48px 15px;
+    @include d-flex($fd: column, $jc: space-evenly, $ai: start, $gp: 64px);
+  }
+}

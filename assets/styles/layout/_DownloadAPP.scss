@@ -32,3 +32,19 @@
 .context_link {
   @include d-flex($jc: space-evenly, $ai: center, $gp: 51px);
 }
+
+@media screen and (max-width: 576px) {
+  .download {
+    position: relative;
+    @include d-flex($fd: column, $jc: space-evenly, $ai: start);
+
+    .images {
+        position: absolute;
+    }
+
+    .context_text {
+        
+    }
+
+  }
+}
