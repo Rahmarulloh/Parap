@@ -745,8 +745,8 @@ template {
 .section6 {
   display: flex;
   align-items: center;
-  gap: 50px;
-  padding-top: 50px;
+  justify-content: space-between;
+  padding: 70px;
 }
 
 .left6 {
