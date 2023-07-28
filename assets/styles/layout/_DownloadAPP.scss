@@ -36,15 +36,15 @@
 @media screen and (max-width: 576px) {
   .download {
     position: relative;
-    @include d-flex($fd: column, $jc: space-evenly, $ai: start);
+    padding: 96px 15px;
+    @include d-flex($fd: column, $jc: space-evenly, $ai: center);
 
     .images {
-        position: absolute;
+      position: absolute;
     }
 
-    .context_text {
-        
+    &_context {
+      gap: 600px;
     }
-
   }
 }
