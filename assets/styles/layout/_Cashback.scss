@@ -98,7 +98,6 @@
     gap: 30px;
     &>:first-child{
         width: 527px;
-        color: var(--text-heading, #000);
         font-family: Manrope;
         font-size: 32px;
         font-style: normal;
@@ -131,3 +130,8 @@
 
 
 }
+
+.dark-mode{
+    background: #202020;
+    color: #FFF;
+  }
