@@ -70,6 +70,9 @@
     background-color: #fff;
     border: 1px solid black;
   }
+  .burger-svg {
+    display: none;
+  }
 }
 .dark-mode {
   background-color: #202020;
@@ -92,19 +95,22 @@
     color: #fff;
   }
 }
-@media screen and (max-width:576px){
-  .navbar .buttons{
+@media screen and (max-width: 576px) {
+  .navbar .buttons {
     display: none;
   }
-  .navbar .mode-divs{
+  .navbar .mode-divs {
     display: none;
   }
-  .navbar nav{
+  .navbar nav {
     display: none;
   }
-  .navbar{
+  .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .navbar .burger-svg {
+    display: block;
   }
 }
