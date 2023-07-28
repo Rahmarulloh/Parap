@@ -165,3 +165,66 @@
     background: #202020;
     color: #FFF;
   }
+
+@media screen and (max-width:576px) {
+    .section5{
+        &>:first-child{
+            font-size: 28px;
+        }
+        &>:nth-child(2){
+            width: 570px;
+            font-size: 18px;
+            }
+    }
+    .sec5-box{
+        width: 570px;
+        overflow-x: scroll;
+    }
+    .section6{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .left6{
+        &>:first-child{
+            width: 360px;
+            font-size: 24px;
+        }
+        &>:nth-child(2){
+            width: 360px;
+            font-size: 16px;
+        }
+    }
+    .sec6-icon{
+        width: 359.883px;
+        height: 143.953px;
+        img{
+            width: 80px;
+            height: 80px;             
+        }
+        &>:nth-child(1){
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        &>:nth-child(2){
+            position: absolute;
+            left: 70px;
+            top: 0;
+        }
+        &>:nth-child(3){
+            position: absolute;
+            left: 140px;
+            bottom: 0;
+        }
+        &>:nth-child(4){
+            position: absolute;
+            right: 70px;
+            top: 0;
+        }
+        &>:nth-child(5){
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
