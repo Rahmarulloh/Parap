@@ -10,3 +10,5 @@
 # Links:
 
 ✅ [Figma link](https://www.figma.com/file/SrUtHIpMn1cvUhF0vxBfFR/PDP-G-10?node-id=13788%3A1663&mode=dev)
+
+sass --watch assets/styles/style.scss assets/dist/main.css

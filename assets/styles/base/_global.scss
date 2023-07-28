@@ -10,6 +10,11 @@
 *::-webkit-scrollbar {
   display: none;
 }
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
 
 .container {
   width: 100%;
