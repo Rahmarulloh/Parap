@@ -37,12 +37,55 @@
             background-color: #3DD8D0;
             border: #fff;
           }
-          
+         
     }
-          .translate{
+    .mode-divs{
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          padding: 20px;
+          .sun{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
             display: flex;
             align-items: center;
-            margin-left:50px ;
-            gap: 5px;
+            justify-content: center;
+            border: 1px solid black;
           }
+          .moon{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(61, 61, 123);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+         } 
+         .sun:hover{
+          background-color: rgb(61, 61, 123);
+         }
+         .moon:hover{
+          background-color: #fff;
+          border: 1px solid black;
+         }
+}
+.dark-mode{
+  background-color: #202020;
+  p{
+    color: #fff;
+  }
+  li{
+    color: #d760c7;
+  }
+  .btn1{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  .btn2{
+    color: #fff;
+  }
 }
