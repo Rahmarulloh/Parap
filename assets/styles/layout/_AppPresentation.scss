@@ -91,20 +91,17 @@
   .AppPresentation {
     h1 {
       width: 500px;
+      position: relative;
+      left: 100px;
+      //styleName: Heading/Large;
       font-family: Manrope;
-      font-size: 30px;
+      font-size: 35px;
       font-weight: 800;
-      line-height: 44px;
-      letter-spacing: 0em;
       text-align: center;
     }
     span {
-      //styleName: Body/Large;
-      font-family: Manrope;
       font-size: 20px;
       font-weight: 600;
-      line-height: 27px;
-      letter-spacing: 0em;
       text-align: center;
     }
     .boxes {
