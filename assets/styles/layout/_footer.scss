@@ -4,3 +4,7 @@
   background: #000;
   @include d-flex($jc: space-evenly, $ai: center);
 }
+
+.nav {
+  @include d-flex($fd: column, $jc: space-evenly, $ai: start, $gp: 24px);
+}
