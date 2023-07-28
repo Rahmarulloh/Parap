@@ -1,0 +1,6 @@
+.footer {
+  color: #fff;
+  padding: 80px 0;
+  background: #000;
+  @include d-flex($jc: space-evenly, $ai: center);
+}
